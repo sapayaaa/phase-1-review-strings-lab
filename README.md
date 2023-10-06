@@ -58,8 +58,6 @@ let's try it out. Let's erase `'Welcome to Flatbook, '` and set `welcomeMessage`
 equal to `currentUser` instead:
 
 ```js
-const currentUser = 'Grace Hopper';
-
 const welcomeMessage = currentUser;
 ```
 
@@ -130,7 +128,7 @@ JavaScript is with the `+` operator, like so:
 //=> "High five!"
 
 "We" + ' ' + `can` + " " + 'concat' + `enate` + " as many strings " + 'as our heart ' + `desires.`;
-//=> "We can concatenate as many strings as our heart desires."
+//=> "We can concatenate as many strings as our heart desires." 
 ```
 
 Since our `currentUser` variable contains a string, we can concatenate it to the

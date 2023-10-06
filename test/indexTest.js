@@ -11,7 +11,7 @@ describe('index.js', () => {
       expect(welcomeMessage).to.have.string('Welcome to Flatbook, ');
     });
 
-    it("contains the value of the 'currentUser' variable", () => {
+    it("contains the valunpmte of the 'currentUser' variable", () => {
       expect(welcomeMessage).to.have.string(currentUser);
     });
 
